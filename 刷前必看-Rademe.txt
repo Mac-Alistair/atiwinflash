@@ -1,0 +1,67 @@
+==========================================================================================
+中文介绍-编写 
+==========================================================================================
+关于一键刷写的使用方法：
+1.将atiwinflash文件夹放入系统盘根目录
+2.将显卡BIOS文件（xxxxxxxxx.rom）改名为BIOS.rom
+3.以管理员身份运行"A.W.F一键刷写程序"
+4.回车
+5.窗口关闭后进行系统重启
+==========================================================================================
+强刷指令：（管理员身份运行命令提示符）
+cd..  //回退
+cd..  //回退
+cd atiwinflash //打开ATIFLASH
+atiwinflash -i 0 //查看输出卡
+atiwinflash -unlockrom 0  //解锁显卡BIOS
+atiwinflash -f -p 0 xxx.rom //刷入显卡BIOS
+==========================================================================================
+【刷前备份原BIOS，有条件的最好准备烧录器，Bios放在刷BIOS工具的文件夹内，刷Bios工具放在C盘根目录】
+
+工具及BIOS文件下载网址: https://www.techpowerup.com/
+==========================================================================================
+关于使用修改后的BIOS无法安装驱动的解决方法：
+1.使用未修改的BIOS
+2.运行atiwinflash文件夹内的驱动破解补丁（最高支持20.5.1版本驱动）
+3.砸或换显卡
+==========================================================================================
+备注：
+1.选择BIOS时一定要确认和显卡信息相符（显存，核心，功耗，接口，颗粒）
+2.应急联系QQ：3563851907 GitHub链接：https://github.com/Mac-Alistair
+3.一定要按上文规范使用，若造成硬件损坏概不负责
+==========================================================================================
+作者：MacAlistair 2020.10.4 原始版本： www.techpowerup.com atiwinflash v2.3.0
+==========================================================================================
+English-Machine translation
+==========================================================================================
+About how to use one-click brush writing:
+1. Put the atiwinflash folder into the system root
+2. Change the name of the graphics card BIOS file (xxxxxxxxx.rom) to BIOS .rom
+3. Run the "A.W.F. One-Click Brush Program" as an administrator
+4. Return
+5. The system restarts after the window is closed
+==========================================================================================
+Strong brush instructions: (administrator status to run command prompts)
+cd.. // Fallback
+cd.. // Fallback
+cd atiwinflash // Open ATIFLASH
+atiwinflash -i 0 // View the output card
+atiwinflash -unlockrom 0 //Unlock graphics BIOS
+atiwinflash -f -p 0 xxx.rom // Swipe into the graphics bioS
+==========================================================================================
+Backup of the original BIOS before brushing, the best preparation burner with conditions, Bios placed in the folder of the Brush BIOS tool, brush Bios tool placed in the C disk root directory
+
+Tools and BIOS file download URL: https://www.techpowerup.com/
+==========================================================================================
+About the solution to not installing drivers using modified BIOS:
+1. Use unmoded BIOS
+2. Run the drive crack patch inside the atiwinflash folder (Up to 20.5.1 version drive)
+3. Smash or change the graphics card
+==========================================================================================
+Note:
+1. When selecting BIOS, be sure to confirm that it matches the graphics card information (memory, core, power consumption, interface, particles)
+2. Emergency contact QQ:3563851907 or GitHub https://github.com/Mac-Alistair
+3. Be sure to use it in accordance with the above specifications and will not be responsible for any hardware damage
+==========================================================================================
+Author: MacAlistair 2020.10.4 Original version: www.techpowerup.com atiwinflash v2.3.0
+==========================================================================================
