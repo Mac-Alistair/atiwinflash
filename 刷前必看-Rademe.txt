@@ -7,6 +7,7 @@
 3.以管理员身份运行"A.W.F一键刷写程序"
 4.回车
 5.窗口关闭后进行系统重启
+6.一定要将本文件改名为atiwinflash!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ==========================================================================================
 强刷指令：（管理员身份运行命令提示符）
 cd..  //回退
@@ -40,6 +41,7 @@ About how to use one-click brush writing:
 3. Run the "A.W.F. One-Click Brush Program" as an administrator
 4. Return
 5. The system restarts after the window is closed
+6. Be sure to change the name of this document to atiwinflash!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ==========================================================================================
 Strong brush instructions: (administrator status to run command prompts)
 cd.. // Fallback
@@ -49,7 +51,9 @@ atiwinflash -i 0 // View the output card
 atiwinflash -unlockrom 0 //Unlock graphics BIOS
 atiwinflash -f -p 0 xxx.rom // Swipe into the graphics bioS
 ==========================================================================================
-Backup of the original BIOS before brushing, the best preparation burner with conditions, Bios placed in the folder of the Brush BIOS tool, brush Bios tool placed in the C disk root directory
+Backup of the original BIOS before brushing, the best preparation burner with conditions
+Bios placed in the folder of the Brush BIOS tool, brush Bios tool placed in the C disk
+root directory
 
 Tools and BIOS file download URL: https://www.techpowerup.com/
 ==========================================================================================
@@ -59,9 +63,13 @@ About the solution to not installing drivers using modified BIOS:
 3. Smash or change the graphics card
 ==========================================================================================
 Note:
-1. When selecting BIOS, be sure to confirm that it matches the graphics card information (memory, core, power consumption, interface, particles)
+1. When selecting BIOS, be sure to confirm that it matches the graphics card information 
+(memory, core, power consumption, interface, particles)
+
 2. Emergency contact QQ:3563851907 or GitHub https://github.com/Mac-Alistair
-3. Be sure to use it in accordance with the above specifications and will not be responsible for any hardware damage
+
+3. Be sure to use it in accordance with the above specifications and will not be
+responsible for any hardware damage
 ==========================================================================================
 Author: MacAlistair 2020.10.4 Original version: www.techpowerup.com atiwinflash v2.3.0
 ==========================================================================================
